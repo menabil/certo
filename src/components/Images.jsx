@@ -1,8 +1,7 @@
 
-
-const Images = ({imgSrc , className}) => {
+const Images = ({imgSrc, imgAlt, className}) => {
     return (
-        <img className={`${className}`} src={imgSrc} alt="" />
+        <img className={`${className}`} src={imgSrc} alt={imgAlt} />
     )
 }
 
