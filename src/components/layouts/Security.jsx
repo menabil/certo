@@ -18,8 +18,10 @@ const Security = () => {
               our products have helped countless people safeguard their devices
               and find peace of mind.
             </p>
+            {/* Button */}
             <Button btnText={"Get Certo for iPhone"} className={"mb-6 block"} />
             <Button btnText={"Get Certo for Android"} />
+            {/* Button */}
           </div>
           <div className="w-1/2 pl-22">
             <Images imgSrc={SecBg} />
