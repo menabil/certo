@@ -13,6 +13,7 @@ const Find = () => {
           Find out with Certo
         </p>
         <Flex className={"gap-x-6 justify-center"}>
+          {/* Button */}
           <Button
             btnText={"Get Certo for iPhone"}
             className={
@@ -25,6 +26,7 @@ const Find = () => {
               "bg-transparent text-white border-2 border-white hover:bg-[#FFC247] hover:border-[#FFC247] hover:text-[#02033B]"
             }
           />
+          {/* Button */}
         </Flex>
       </Container>
     </div>
