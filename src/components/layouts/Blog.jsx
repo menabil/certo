@@ -81,10 +81,12 @@ const Blog = () => {
               </p>
             </div>
           </Flex>
+          {/* Button */}
           <Flex className={"gap-x-6 justify-center"}>
             <Button btnText={"Get Certo for iPhone"} />
             <Button btnText={"Get Certo for Android"} />
           </Flex>
+          {/* Button */}
         </div>
       </Container>
     </div>
