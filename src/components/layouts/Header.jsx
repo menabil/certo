@@ -25,13 +25,13 @@ const Header = () => {
                 </div>
               </li>
             </ul>
-            <div
+            <button
               className={
                 "font-extrabold ml-24 py-3.5 px-6 rounded-[100px] bg-[#4335DE] text-white border-2 border-[#4335DE] hover:bg-transparent hover:border-2-[#4335DE] hover:text-[#4335DE] duration-500 cursor-pointer"
               }
             >
               Sign in
-            </div>
+            </button>
           </Flex>
         </Flex>
       </Container>
