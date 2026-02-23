@@ -71,6 +71,7 @@ const Featured = () => {
             </h6>
           </div>
         </Flex>
+        {/* Bottom part */}
         <Flex>
           <p className="font-extrabold text-2xl text-[#02033B] pr-[75px]">
             Featured in:
@@ -84,6 +85,7 @@ const Featured = () => {
             <Images imgSrc={LogoSix} />
           </Flex>
         </Flex>
+        {/* Bottom part */}
       </Container>
     </div>
   );
