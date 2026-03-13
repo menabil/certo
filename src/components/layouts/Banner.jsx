@@ -6,7 +6,7 @@ import Phone from "/src/assets/bannerPhone.png";
 
 const Banner = () => {
   return (
-    <div className="bg-[url(/src/assets/banner.png)] py-45 bg-no-repeat bg-cover bg-center">
+    <section className="bg-[url(/src/assets/banner.png)] py-45 bg-no-repeat bg-cover bg-center">
       <Container>
         <Flex>
           <div className="w-1/2">
@@ -28,7 +28,7 @@ const Banner = () => {
           </div>
         </Flex>
       </Container>
-    </div>
+    </section>
   );
 };
 

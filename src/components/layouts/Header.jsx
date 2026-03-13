@@ -6,7 +6,7 @@ import { FaChevronDown } from "react-icons/fa6";
 
 const Header = () => {
   return (
-    <div className={"bg-[#F3F8FF]"}>
+    <section className={"bg-[#F3F8FF]"}>
       <Container>
         <Flex className={"py-6"}>
           <div className="w-[20%]">
@@ -34,7 +34,7 @@ const Header = () => {
           </Flex>
         </Flex>
       </Container>
-    </div>
+    </section>
   );
 };
 

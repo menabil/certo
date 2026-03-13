@@ -11,7 +11,7 @@ import { IoStar } from "react-icons/io5";
 
 const Featured = () => {
   return (
-    <div className="bg-linear-to-b from-[#F7C95F] to-[#FDB235]">
+    <section className="bg-linear-to-b from-[#F7C95F] to-[#FDB235]">
       <Container className={"py-[84px]"}>
         <h3 className="text-4xl text-[#02033B] w-[565px] font-extrabold">
           Loved by thousands of iPhone and Android users alike
@@ -87,7 +87,7 @@ const Featured = () => {
         </Flex>
         {/* Bottom part */}
       </Container>
-    </div>
+    </section>
   );
 };
 

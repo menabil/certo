@@ -8,7 +8,7 @@ import Button from "../Button";
 
 const Latest = () => {
   return (
-    <div className="py-[84px] bg-[#F3F8FF]">
+    <section className="py-[84px] bg-[#F3F8FF]">
       <Container>
         <h3 className="text-[#02033B] text-[56px] font-extrabold text-center">
           Latest insights
@@ -65,7 +65,7 @@ const Latest = () => {
         </Flex>
         <Button btnText={"View all insights"} className={"mx-auto"} />
       </Container>
-    </div>
+    </section>
   );
 };
 

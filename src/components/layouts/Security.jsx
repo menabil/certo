@@ -6,7 +6,7 @@ import SecBg from "/src/assets/secBg.png";
 
 const Security = () => {
   return (
-    <div>
+    <section>
       <Container>
         <Flex className={"py-[84px] justify-between"}>
           <div className="w-1/2">
@@ -28,7 +28,7 @@ const Security = () => {
           </div>
         </Flex>
       </Container>
-    </div>
+    </section>
   );
 };
 

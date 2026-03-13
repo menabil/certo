@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Help = () => {
   return (
-    <div>
+    <section>
       <Container className={"py-[84px] px-9"}>
         <Flex className={"justify-center"}>
           <div className="rounded-[48px] bg-linear-to-b from-[#F7C95F] to-[#FDB235] p-12">
@@ -30,7 +30,7 @@ const Help = () => {
           </div>
         </Flex>
       </Container>
-    </div>
+    </section>
   );
 };
 

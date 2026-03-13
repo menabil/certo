@@ -4,7 +4,7 @@ import Flex from "../Flex";
 
 const Find = () => {
   return (
-    <div className="bg-linear-to-b from-[#2925CC] to-[#4B48E5] py-[84px]">
+    <section className="bg-linear-to-b from-[#2925CC] to-[#4B48E5] py-[84px]">
       <Container className={"text-center"}>
         <h3 className="text-white text-[34px] font-extrabold">
           Is someone spying on your phone?
@@ -29,7 +29,7 @@ const Find = () => {
           {/* Button */}
         </Flex>
       </Container>
-    </div>
+    </section>
   );
 };
 

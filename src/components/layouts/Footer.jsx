@@ -7,7 +7,7 @@ import { TfiLayoutLineSolid } from "react-icons/tfi";
 
 const Footer = () => {
   return (
-    <div className="py-24 bg-[#02033B]">
+    <section className="py-24 bg-[#02033B]">
       <Container>
         <Flex className={"items-start justify-center gap-x-15"}>
           <div className="text-white">
@@ -86,7 +86,7 @@ const Footer = () => {
           trademarks of Google LLC.
         </p>
       </Container>
-    </div>
+    </section>
   );
 };
 

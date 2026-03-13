@@ -11,7 +11,7 @@ import Button from "../Button";
 
 const Blog = () => {
   return (
-    <div className="bg-linear-to-b from-[#F3F8FF] to-[#E7EFFA] py-[84px]">
+    <section className="bg-linear-to-b from-[#F3F8FF] to-[#E7EFFA] py-[84px]">
       <Container>
         <h3 className="text-center text-[#02033B] text-4xl font-extrabold w-[650px] leading-[45px] pb-[72px] mx-auto">
           Get your freedom back, stop mobile spyware today
@@ -89,7 +89,7 @@ const Blog = () => {
           {/* Button */}
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 
