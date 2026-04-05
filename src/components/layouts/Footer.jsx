@@ -22,7 +22,7 @@ const Footer = () => {
               <u>Terms of Service</u>
             </Flex>
             <p className="text-sm pt-9 pb-4.5 w-[380px]">
-              Copyright © 2022 Certo Software Limited | Registered in England &
+              Copyright © 2026 Certo Software Limited | Registered in England &
               Wales No. 10072356
             </p>
             <p className="text-sm ">Designed & developed by Bigger Picture</p>
