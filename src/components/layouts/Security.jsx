@@ -19,8 +19,8 @@ const Security = () => {
               and find peace of mind.
             </p>
             {/* Button */}
-            <Button btnText={"Get Certo for iPhone"} className={"md:mb-6 mb-2 block mx-auto"} />
-            <Button btnText={"Get Certo for Android"} className={"mx-auto"} />
+            <Button btnText={"Get Certo for iPhone"} className={"md:mb-6 mb-2 block mx-auto md:mx-0"} />
+            <Button btnText={"Get Certo for Android"} className={"mx-auto md:mx-0"} />
             {/* Button */}
           </div>
           <div className="md:w-1/2 md:pl-22">
