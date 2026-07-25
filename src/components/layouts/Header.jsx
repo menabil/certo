@@ -8,7 +8,7 @@ import Logo from "/src/assets/logo.png";
 import { FaChevronDown, FaBars, FaXmark } from "react-icons/fa6";
 
 // Mobile menu toggling custom hook
-export const useMobileMenu = () => {
+const useMobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
