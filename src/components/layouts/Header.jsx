@@ -3,8 +3,6 @@ import Container from "../Container";
 import Flex from "../Flex";
 import Images from "../Images";
 import Logo from "/src/assets/logo.png";
-
-// React Icons
 import { FaChevronDown, FaBars, FaXmark } from "react-icons/fa6";
 
 // Mobile menu toggling custom hook
