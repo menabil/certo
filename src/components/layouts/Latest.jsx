@@ -13,7 +13,11 @@ const Latest = () => {
         <h3 className="text-[#02033B] md:text-[56px] text-4xl font-extrabold text-center">
           Latest insights
         </h3>
-        <Flex className={"gap-x-12 gap-y-5 justify-center md:my-[72px] my-10 items-start flex-col md:flex-row"}>
+        <Flex
+          className={
+            "gap-x-12 gap-y-5 justify-center md:my-[72px] my-10 items-start flex-col md:flex-row"
+          }
+        >
           <div className="rounded-[48px] overflow-hidden bg-white md:w-[320px] w-[300px] md:mx-0 mx-auto relative">
             <div className="bg-[#F3F8FF] rounded-[48px] text-sm text-[#02033B] font-extrabold py-3 px-5 absolute top-6 left-6">
               Expertise

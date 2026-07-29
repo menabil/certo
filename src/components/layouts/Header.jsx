@@ -44,8 +44,9 @@ const Header = () => {
 
           {/* Desktop & Mobile Menu Area */}
           <div
-            className={`${isOpen ? "flex" : "hidden"
-              } lg:flex flex-col lg:flex-row absolute lg:relative top-full left-0 w-full lg:w-[80%] bg-[#F3F8FF] lg:bg-transparent p-6 lg:p-0 border-b lg:border-none border-gray-200 shadow-lg lg:shadow-none items-center justify-between z-50 gap-y-6 lg:gap-y-0 duration-300 transition-all`}
+            className={`${
+              isOpen ? "flex" : "hidden"
+            } lg:flex flex-col lg:flex-row absolute lg:relative top-full left-0 w-full lg:w-[80%] bg-[#F3F8FF] lg:bg-transparent p-6 lg:p-0 border-b lg:border-none border-gray-200 shadow-lg lg:shadow-none items-center justify-between z-50 gap-y-6 lg:gap-y-0 duration-300 transition-all`}
           >
             {/* Menu Links */}
             <ul className="flex flex-col lg:flex-row items-center gap-y-4 lg:gap-y-0 lg:gap-x-8 xl:gap-x-12 w-full lg:w-auto text-center">

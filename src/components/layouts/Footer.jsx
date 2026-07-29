@@ -1,6 +1,10 @@
 import Container from "../Container";
 import Flex from "../Flex";
-import { FaTwitterSquare, FaFacebookSquare, FaYoutubeSquare } from "react-icons/fa";
+import {
+  FaTwitterSquare,
+  FaFacebookSquare,
+  FaYoutubeSquare,
+} from "react-icons/fa";
 import { TfiLayoutLineSolid } from "react-icons/tfi";
 
 const Footer = () => {
@@ -9,10 +13,11 @@ const Footer = () => {
       <Container>
         {/* Main Footer Content */}
         <Flex className="flex-col lg:flex-row items-center lg:items-start justify-between gap-10 lg:gap-8 text-center lg:text-left">
-
           {/* Column 1: Brand Info & Socials */}
           <div className="text-white w-full lg:w-1/3 flex flex-col items-center lg:items-start px-2 sm:px-0">
-            <h4 className="text-xl sm:text-2xl font-extrabold">Scan. Detect. Remove.</h4>
+            <h4 className="text-xl sm:text-2xl font-extrabold">
+              Scan. Detect. Remove.
+            </h4>
 
             <Flex className="gap-x-6 sm:gap-x-8 text-3xl sm:text-4xl py-6 sm:py-8 lg:py-12 justify-center lg:justify-start">
               <FaTwitterSquare className="hover:text-[#FFC247] cursor-pointer transition-colors" />
@@ -21,15 +26,27 @@ const Footer = () => {
             </Flex>
 
             <Flex className="gap-x-6 text-sm text-white justify-center lg:justify-start">
-              <a href="#" className="underline hover:text-[#FFC247] transition-colors">Privacy Policy</a>
-              <a href="#" className="underline hover:text-[#FFC247] transition-colors">Terms of Service</a>
+              <a
+                href="#"
+                className="underline hover:text-[#FFC247] transition-colors"
+              >
+                Privacy Policy
+              </a>
+              <a
+                href="#"
+                className="underline hover:text-[#FFC247] transition-colors"
+              >
+                Terms of Service
+              </a>
             </Flex>
 
             <p className="text-xs sm:text-sm pt-6 sm:pt-9 pb-3 max-w-full lg:max-w-[380px] text-white/80">
               Copyright © 2026 Certo Software Limited | Registered in England &
               Wales No. 10072356
             </p>
-            <p className="text-xs sm:text-sm text-white/80">Designed & developed by Bigger Picture</p>
+            <p className="text-xs sm:text-sm text-white/80">
+              Designed & developed by Bigger Picture
+            </p>
           </div>
 
           {/* Column 2: Navigation Links */}
@@ -38,12 +55,17 @@ const Footer = () => {
               <h3>Certo</h3>
             </div>
             <div className="text-[#FFC247] mt-6 sm:mt-[60px] flex flex-col items-center lg:items-start">
-              {["iPhone", "Android", "Help", "About", "Insights"].map((item, index) => (
-                <Flex key={index} className="font-extrabold text-lg sm:text-xl gap-x-4 sm:gap-x-6 pb-4 sm:pb-6 items-center justify-center lg:justify-start hover:opacity-80 cursor-pointer">
-                  <TfiLayoutLineSolid />
-                  <p>{item}</p>
-                </Flex>
-              ))}
+              {["iPhone", "Android", "Help", "About", "Insights"].map(
+                (item, index) => (
+                  <Flex
+                    key={index}
+                    className="font-extrabold text-lg sm:text-xl gap-x-4 sm:gap-x-6 pb-4 sm:pb-6 items-center justify-center lg:justify-start hover:opacity-80 cursor-pointer"
+                  >
+                    <TfiLayoutLineSolid />
+                    <p>{item}</p>
+                  </Flex>
+                ),
+              )}
             </div>
           </div>
 
@@ -63,13 +85,15 @@ const Footer = () => {
                   placeholder="Email address"
                   className="outline-none bg-white py-2.5 px-4 text-sm w-full text-[#02033B]"
                 />
-                <button type="button" className="bg-[#02033B] py-2.5 px-5 sm:px-7 text-white text-sm font-extrabold cursor-pointer shrink-0 hover:bg-[#02033B]/90 transition-colors">
+                <button
+                  type="button"
+                  className="bg-[#02033B] py-2.5 px-5 sm:px-7 text-white text-sm font-extrabold cursor-pointer shrink-0 hover:bg-[#02033B]/90 transition-colors"
+                >
                   Submit
                 </button>
               </Flex>
             </div>
           </div>
-
         </Flex>
 
         {/* Extra Card Box */}
@@ -84,7 +108,6 @@ const Footer = () => {
           mark of Apple Inc. Android, Google Play and the Google Play logo are
           trademarks of Google LLC.
         </p>
-
       </Container>
     </section>
   );

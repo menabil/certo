@@ -8,7 +8,11 @@ const Security = () => {
   return (
     <section>
       <Container>
-        <Flex className={"md:py-[84px] py-15 justify-between flex-col md:flex-row gap-y-10"}>
+        <Flex
+          className={
+            "md:py-[84px] py-15 justify-between flex-col md:flex-row gap-y-10"
+          }
+        >
           <div className="md:w-1/2 text-center md:text-left px-3 md:px-0">
             <h3 className="md:w-[440px] md:text-4xl text-3xl text-[#02033B] font-extrabold">
               At Certo, mobile security is not an afterthought, it’s what we do.
@@ -19,8 +23,14 @@ const Security = () => {
               and find peace of mind.
             </p>
             {/* Button */}
-            <Button btnText={"Get Certo for iPhone"} className={"md:mb-6 mb-2 block mx-auto md:mx-0"} />
-            <Button btnText={"Get Certo for Android"} className={"mx-auto md:mx-0"} />
+            <Button
+              btnText={"Get Certo for iPhone"}
+              className={"md:mb-6 mb-2 block mx-auto md:mx-0"}
+            />
+            <Button
+              btnText={"Get Certo for Android"}
+              className={"mx-auto md:mx-0"}
+            />
             {/* Button */}
           </div>
           <div className="md:w-1/2 md:pl-22">

@@ -107,7 +107,6 @@
 
 // export default Blog;
 
-
 import Container from "../Container";
 import Flex from "../Flex";
 import Images from "../Images";
@@ -131,11 +130,13 @@ const Blog = () => {
 
         {/* Card Box */}
         <div className="p-6 sm:p-10 md:p-12 lg:p-[72px] bg-white rounded-3xl sm:rounded-[48px] w-full max-w-[840px] mx-auto shadow-sm">
-
           {/* Row 1 */}
           <Flex className="flex-col md:flex-row gap-8 md:gap-x-12 justify-center items-center">
             <div className="w-full md:w-[200px] text-center flex flex-col items-center">
-              <Images imgSrc={One} className="mx-auto h-auto max-w-[50px] md:max-w-none" />
+              <Images
+                imgSrc={One}
+                className="mx-auto h-auto max-w-[50px] md:max-w-none"
+              />
               <h6 className="py-3 md:py-6 text-lg md:text-xl text-[#02033B] font-extrabold">
                 Spyware detection
               </h6>
@@ -146,7 +147,10 @@ const Blog = () => {
             </div>
 
             <div className="w-full md:w-[200px] text-center flex flex-col items-center">
-              <Images imgSrc={Two} className="mx-auto h-auto max-w-[50px] md:max-w-none" />
+              <Images
+                imgSrc={Two}
+                className="mx-auto h-auto max-w-[50px] md:max-w-none"
+              />
               <h6 className="py-3 md:py-6 text-lg md:text-xl text-[#02033B] font-extrabold">
                 Keylogger detection
               </h6>
@@ -157,7 +161,10 @@ const Blog = () => {
             </div>
 
             <div className="w-full md:w-[200px] text-center flex flex-col items-center">
-              <Images imgSrc={Thr} className="mx-auto h-auto max-w-[50px] md:max-w-none" />
+              <Images
+                imgSrc={Thr}
+                className="mx-auto h-auto max-w-[50px] md:max-w-none"
+              />
               <h6 className="py-3 md:py-6 text-lg md:text-xl text-[#02033B] font-extrabold">
                 Find tracking apps
               </h6>
@@ -171,7 +178,10 @@ const Blog = () => {
           {/* Row 2 */}
           <Flex className="flex-col md:flex-row gap-8 md:gap-x-12 my-8 md:my-[72px] justify-center items-center">
             <div className="w-full md:w-[200px] text-center flex flex-col items-center">
-              <Images imgSrc={For} className="mx-auto h-auto max-w-[50px] md:max-w-none" />
+              <Images
+                imgSrc={For}
+                className="mx-auto h-auto max-w-[50px] md:max-w-none"
+              />
               <h6 className="py-3 md:py-6 text-lg md:text-xl text-[#02033B] font-extrabold">
                 OS integrity check
               </h6>
@@ -182,7 +192,10 @@ const Blog = () => {
             </div>
 
             <div className="w-full md:w-[200px] text-center flex flex-col items-center">
-              <Images imgSrc={Fiv} className="mx-auto h-auto max-w-[50px] md:max-w-none" />
+              <Images
+                imgSrc={Fiv}
+                className="mx-auto h-auto max-w-[50px] md:max-w-none"
+              />
               <h6 className="py-3 md:py-6 text-lg md:text-xl text-[#02033B] font-extrabold">
                 Threat removal
               </h6>
@@ -193,7 +206,10 @@ const Blog = () => {
             </div>
 
             <div className="w-full md:w-[200px] text-center flex flex-col items-center">
-              <Images imgSrc={Six} className="mx-auto h-auto max-w-[50px] md:max-w-none" />
+              <Images
+                imgSrc={Six}
+                className="mx-auto h-auto max-w-[50px] md:max-w-none"
+              />
               <h6 className="py-3 md:py-6 text-lg md:text-xl text-[#02033B] font-extrabold">
                 Easy to use
               </h6>
@@ -209,7 +225,6 @@ const Blog = () => {
             <Button btnText={"Get Certo for iPhone"} />
             <Button btnText={"Get Certo for Android"} />
           </Flex>
-
         </div>
       </Container>
     </section>
